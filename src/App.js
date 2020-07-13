@@ -53,7 +53,7 @@ function App() {
     <>
       <Navbar />
       <div>
-        {loading ? <h1 style={{ textAlign: 'center' }}>Loading...</h1> : (
+        {loading ? <h1 style={{ textAlign: 'center' }}><img src={"http://www.compuconsultations.org/pokeball.gif"} alt={"Loading"} /></h1> : (
           <>
             
             <div className="grid-container">
